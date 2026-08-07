@@ -1,0 +1,11 @@
+.topBanner {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 13px;
+}
+
+.topBanner p {
+    margin: 0;
+}

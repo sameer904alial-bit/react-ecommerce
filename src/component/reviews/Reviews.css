@@ -1,0 +1,30 @@
+.reviews {
+    padding: 30px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reviews__container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.reviewCard {
+    background-color: #f9f9f9;
+    border-left: 4px solid #febd69;
+    padding: 15px;
+    width: 250px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.reviewCard span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}

@@ -1,0 +1,20 @@
+.categoryList {
+    display: flex;
+    background-color: #232f3e;
+    padding: 10px 20px;
+    overflow-x: auto;
+    gap: 25px;
+}
+
+.categoryList__item {
+    color: white;
+    white-space: nowrap;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.categoryList__item:hover {
+    background-color: #37475a;
+}
