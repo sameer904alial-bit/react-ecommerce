@@ -1,5 +1,5 @@
 import Header from "./component/header/Header.js";
-import Footer from "./component/footer/Footer.js";
+// import Footer from "./component/footer/Footer.js";
 import TopBanner from "./component/banner/TopBanner.js";
 import HeroBanner from "./component/heroBanner/HeroBanner.js";
 import CategoryList from "./component/categoryList/CategoryList.js";
@@ -19,7 +19,7 @@ function App() {
       <FlashDeals />
       <ProductGrid />
       <Newsletter />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
